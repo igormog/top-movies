@@ -53,7 +53,7 @@ $all_lines = mysqli_num_rows($query);
             <input type="checkbox" name="is_active" value="0"> Not public
             </label>
         </div>
-        <input class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Отправить"/>
+        <input class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Add"/>
     </form>
 </div>
 
