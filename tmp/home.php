@@ -18,7 +18,7 @@ $all_films = mysqli_num_rows($query);
             <div class="blog-post">
                 <h2 class="blog-post-title"><?= $row['name_film'] ?></h2>
                 <p class="blog-post-meta"><?= $row['year_film'] ?></p>
-                <p class="blog-post-meta">Films added <span style="font-size: 12px;"><?= $row['data_add'] ?></span></p>
+                <p class="blog-post-meta"><span style="font-size: 12px;">Films added <?= $row['data_add'] ?></span></p>
             </div>
         </div>
         <?php endwhile; ?>
